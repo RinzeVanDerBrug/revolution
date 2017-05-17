@@ -6,42 +6,35 @@
         <p>[[%help_main_subhead]]</p>
     </div>
 
-    <div id="managerbuttons">
+    <div id="supportOptions">
+        <h3>[[%supportoptions_head]]</h3>
         <ul>
-            <li>
-                <a href="[[%forums_link]]" target="_blank" title="[[%forums_title]]">
-                    <span class="icon"><i class="icon icon-comments icon-3x"></i></span>
-                    <span class="headline">[[%forums]]</span>
-                    <span class="subline">[[%forums_description]]</span>
-                </a>
+            <li class="support-options">
+                <h4><i class="icon icon-angle-right"></i>[[%help_supportoption_1_head]]</h4>
+                <p>[[%help_supportoption_1_description]]</p>
             </li>
-            <li>
-                <a href="[[%docs_link]]" target="_blank" title="[[%docs_title]]">
-                    <span class="icon"><i class="icon icon-book icon-3x"></i></span>
-                    <span class="headline">[[%docs]]</span>
-                    <span class="subline">[[%docs_description]]</span>
-                </a>
+            <li class="support-options">
+                <h4><i class="icon icon-angle-right"></i>[[%help_supportoption_2_head]]</h4>
+                <p>[[%help_supportoption_2_description]]</p>
+                <ul class="bullets">
+                    <li>[[%help_community1]]</li>
+                    <li>[[%help_community2]]</li>
+                    <li>[[%help_community3]]</li>
+                </ul>
             </li>
-            <li>
-                <a href="[[%bugs_link]]" target="_blank" title="[[%bugs_title]]">
-                    <span class="icon"><i class="icon icon-exclamation-circle icon-3x"></i></span>
-                    <span class="headline">[[%bugs]]</span>
-                    <span class="subline">[[%bugs_description]]</span>
-                </a>
-            </li>
-            <li>
-                <a href="[[%support_link]]" target="_blank" class="supportTicket" title="[[%support_title]]">
-                    <span class="icon"><i class="icon icon-credit-card icon-3x"></i></span>
-                    <span class="headline">[[%support]]</span>
-                    <span class="subline">[[%support_description]]</span>
-                </a>
+            <li class="support-options">
+                <h4><i class="icon icon-angle-right"></i>[[%help_supportoption_3_head]]</h4>
+                <p>[[%help_supportoption_3_description]]</p>
+                <ul class="bullets">
+                    <li>[[%help_professionals1]]</li>
+                    <li>[[%help_professionals2]]</li>
+                </ul>
             </li>
         </ul>
     </div>
 
     <div id="contactus">
         <h3>[[%email_sub]]</h3>
-        <p>[[%email_sub_description]]</p>
         <form id="mcsignup" action="http://modxcms.list-manage.com/subscribe/post" method="post">
             <input type="hidden" name="u" value="08b25a8de68a29fe03a483720"/>
             <input type="hidden" name="id" value="848cf40420"/>
@@ -50,17 +43,16 @@
             <input type="email" placeholder="[[%email_placeholder]]" required id="MERGE0" name="MERGE0" value="" class="textbox"/>
             <input type="submit" class="x-btn primary-button" name="Submit" value="[[%email_sub_button]]"/>
         </form>
-
-        <p>[[%social_follows]]</p>
-        <p><a href="https://twitter.com/modx" target="_blank"><i class="icon icon-2x icon-twitter"></i>Twitter: twitter.com/modx</a></p>
-        <p><a href="https://www.facebook.com/modxcms" target="_blank"><i class="icon icon-2x icon-facebook"></i>Facebook: www.facebook.com/modxcms</a></p>
-        <p><a href="https://www.linkedin.com/groups/MODX-697477" target="_blank"><i class="icon icon-2x icon-linkedin"></i>LinkedIn: linkedin.com/groups/MODX-697477</a></p>
-        <p><a href="http://www.pinterest.com/modx/" target="_blank"><i class="icon icon-2x icon-pinterest"></i>Pinterest: pinterest.com/modx </a></p>
-        <p><a href="https://plus.google.com/+modx/" target="_blank"><i class="icon icon-2x icon-google-plus"></i>Google+: google.com/+modx </a></p>
+        <div id="social-icons">
+            <p><a href="https://twitter.com/modx" target="_blank"><i class="icon icon-2x icon-twitter"></i></a></p>
+            <p><a href="https://www.facebook.com/modxcms" target="_blank"><i class="icon icon-2x icon-facebook"></i></a></p>
+            <p><a href="https://www.linkedin.com/groups/MODX-697477" target="_blank"><i class="icon icon-2x icon-linkedin"></i></a></p>
+            <p><a href="http://www.pinterest.com/modx/" target="_blank"><i class="icon icon-2x icon-pinterest"></i></a></p>
+            <p><a href="https://plus.google.com/+modx/" target="_blank"><i class="icon icon-2x icon-google"></i></a></p>
+        </div>
     </div>
 
     <div id="aboutMODX">
-        <p>[[%help_about]]</p>
         <p>[[%help_credit? &current_year=`{'Y'|date}`]]</p>
     </div>
 </div>

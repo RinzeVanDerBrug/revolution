@@ -8769,75 +8769,6 @@ ul.configcheck {
   background: transparent;
   padding-right: 1.5em; }
 
-/* Thanks to Christian Seel for these! http://chsmedien.com/blog/2013/02/customize-your-modx-dashboard */
-#managerbuttons {
-  margin-bottom: 1em;
-  overflow: hidden;
-  width: 100%; }
-
-#managerbuttons ul:before,
-#managerbuttons ul:after {
-  content: " ";
-  display: table; }
-
-#managerbuttons ul:after {
-  clear: both; }
-
-#managerbuttons ul {
-  /* clearfix */
-  *zoom: 1;
-  margin: 0;
-  width: 100%; }
-
-#managerbuttons ul li {
-  display: table;
-  float: left;
-  margin: 0;
-  padding: 0 1%;
-  position: relative;
-  width: 25%;
-  box-sizing: border-box; }
-  #managerbuttons ul li:first-child {
-    padding-left: 0%; }
-  #managerbuttons ul li:last-child {
-    padding-right: 0%; }
-
-#managerbuttons ul li a {
-  background-color: white;
-  background-image: linear-gradient(to bottom,white, whitesmoke);
-  border-radius: 3px;
-  border: 1px solid #E4E4E4;
-  box-shadow: 0 1px 0 #E4E4E4;
-  color: #53595F;
-  display: table-cell;
-  /* MODX 2.x.x Manager Button Styles */
-  font: normal 11px "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
-  font-weight: bold;
-  padding: 12px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle; }
-
-#managerbuttons ul li a span {
-  display: block;
-  line-height: 1.4; }
-
-#managerbuttons ul li a span.headline {
-  font-size: 12px; }
-
-#managerbuttons ul li a span.subline {
-  font-weight: normal; }
-
-#managerbuttons ul li a span.icon {
-  display: block;
-  margin: 0 auto;
-  padding: 0 0 10px;
-  width: auto; }
-
-#managerbuttons ul li a:hover span.icon {
-  color: #3697cd; }
-
 #helpBanner,
 #contactus {
   box-sizing: border-box;
@@ -8851,10 +8782,14 @@ ul.configcheck {
   #contactus h3 {
     margin: 0 0 1em; }
 
+#helpBanner h3, #helpBanner p {
+  max-width: 70%;
+}
+
 #helpBanner {
   margin-top: 1.5em;
   min-height: 112px;
-  background-color: transparent;
+  background-color: #fff;
   background-image: url("../images/modx-logo-color.png");
   background-image: url("../images/modx-logo-color.svg"), none;
   background-repeat: no-repeat;
@@ -8867,10 +8802,31 @@ ul.configcheck {
     margin-right: 1em;
     width: 200px; }
 
+#supportOptions {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #E4E4E4;
+  box-shadow: 0 1px 0 #E4E4E4;
+  margin: 0.75em 0 1.75em;
+  padding: 18px;
+  width: 100%; 
+}
+
+li.support-options {
+  margin-top: 20px;
+}
+
+ul.bullets
+{
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
 #contactus {
   box-sizing: border-box;
   float: left;
-  width: 60%; }
+  width: 100%; }
   #contactus form {
     display: inline; }
   #contactus input[type=email] {
@@ -8878,7 +8834,7 @@ ul.configcheck {
     font-size: 1.1em;
     margin-right: 4px;
     padding: 0.4em;
-    width: 70%; }
+    width: 50%; }
   #contactus input[type=submit] {
     /*background: none;*/
     border: 0;
@@ -8887,9 +8843,18 @@ ul.configcheck {
     padding: 6px 10px; }
   #contactus p {
     color: #18465f;
-    margin: 1em 0; }
-  #contactus form + p {
-    margin: 2em 0 0; }
+    margin: 0.5em 0; }
+
+#contactus #social-icons
+{
+  width: 30%;
+  float: right;
+}
+#contactus #social-icons p a i
+{
+  float: right;
+  margin: 0 8px;
+}
 
 #contactus a {
   color: #081922;
@@ -8912,11 +8877,10 @@ ul.configcheck {
 #aboutMODX {
   box-sizing: border-box;
   background: #F0F0F0;
-  float: left;
-  margin: 1em 0 0 2%;
-  min-height: 300px;
+  margin: 1em auto 0 auto;
+  text-align: center;
   padding: 1em;
-  width: 38%; }
+  width: 100%; }
   #aboutMODX p {
     line-height: 1.6;
     margin: 0 0 1em; }
