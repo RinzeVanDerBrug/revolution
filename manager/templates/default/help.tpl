@@ -16,39 +16,22 @@
             <li class="support-options">
                 <h4><i class="icon icon-angle-right"></i>[[%help_supportoption_2_head]]</h4>
                 <p>[[%help_supportoption_2_description]]</p>
-                <ul class="bullets">
-                    <li>[[%help_community1]]</li>
-                    <li>[[%help_community2]]</li>
-                    <li>[[%help_community3]]</li>
-                </ul>
-            </li>
-            <li class="support-options">
-                <h4><i class="icon icon-angle-right"></i>[[%help_supportoption_3_head]]</h4>
-                <p>[[%help_supportoption_3_description]]</p>
-                <ul class="bullets">
-                    <li>[[%help_professionals1]]</li>
-                    <li>[[%help_professionals2]]</li>
-                </ul>
             </li>
         </ul>
     </div>
 
     <div id="contactus">
         <h3>[[%email_sub]]</h3>
-        <form id="mcsignup" action="http://modxcms.list-manage.com/subscribe/post" method="post">
-            <input type="hidden" name="u" value="08b25a8de68a29fe03a483720"/>
-            <input type="hidden" name="id" value="848cf40420"/>
-            <input type="hidden" name="MERGE7" value="[[++site_url]] Manager" id="MERGE7">
-
-            <input type="email" placeholder="[[%email_placeholder]]" required id="MERGE0" name="MERGE0" value="" class="textbox"/>
-            <input type="submit" class="x-btn primary-button" name="Submit" value="[[%email_sub_button]]"/>
-        </form>
+        <!-- Begin MailChimp Signup Form -->
+<form action="//sterc.us9.list-manage.com/subscribe/post?u=729ed9afe62c018c2c79c5eca&amp;id=9d6d454e10" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" id="mcsignup" target="_blank" novalidate>
+    <input type="email" placeholder="[[%email_placeholder]]" name="EMAIL" class="required email" id="mce-EMAIL">
+    <input type="submit" value="[[%email_sub_button]]" name="subscribe" class="x-btn primary-button">
+</form>
+<!--End mc_embed_signup-->
         <div id="social-icons">
-            <p><a href="https://twitter.com/modx" target="_blank"><i class="icon icon-2x icon-twitter"></i></a></p>
-            <p><a href="https://www.facebook.com/modxcms" target="_blank"><i class="icon icon-2x icon-facebook"></i></a></p>
-            <p><a href="https://www.linkedin.com/groups/MODX-697477" target="_blank"><i class="icon icon-2x icon-linkedin"></i></a></p>
-            <p><a href="http://www.pinterest.com/modx/" target="_blank"><i class="icon icon-2x icon-pinterest"></i></a></p>
-            <p><a href="https://plus.google.com/+modx/" target="_blank"><i class="icon icon-2x icon-google"></i></a></p>
+            <p><a href="https://twitter.com/sterc" target="_blank"><i class="icon icon-2x icon-twitter"></i></a></p>
+            <p><a href="https://www.facebook.com/sterc.internet.marketing" target="_blank"><i class="icon icon-2x icon-facebook"></i></a></p>
+            <p><a href="https://www.linkedin.com/company/sterc-concept" target="_blank"><i class="icon icon-2x icon-linkedin"></i></a></p>
         </div>
     </div>
 
