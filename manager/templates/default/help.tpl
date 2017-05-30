@@ -23,7 +23,7 @@
     <div id="contactus">
         <h3>[[%email_sub]]</h3>
         <!-- Begin MailChimp Signup Form -->
-<form action="//sterc.us9.list-manage.com/subscribe/post?u=729ed9afe62c018c2c79c5eca&amp;id=9d6d454e10" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" id="mcsignup" target="_blank" novalidate>
+<form action="//sterc.us9.list-manage.com/subscribe/post?u=729ed9afe62c018c2c79c5eca&amp;id=7644ffe8d9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" id="mcsignup" target="_blank" novalidate>
     <input type="email" placeholder="[[%email_placeholder]]" name="EMAIL" class="required email" id="mce-EMAIL">
     <input type="submit" value="[[%email_sub_button]]" name="subscribe" class="x-btn primary-button">
 </form>
@@ -39,3 +39,4 @@
         <p>[[%help_credit? &current_year=`{'Y'|date}`]]</p>
     </div>
 </div>
+
